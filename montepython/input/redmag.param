@@ -1,0 +1,95 @@
+#------Experiments to test (separated with commas)-----
+# To see all the available ones, please look in the
+# montepython/likelihoods folder. Every folder there is a valid likelihood to
+# test.
+data.experiments=['eftdes']
+data.over_sampling=[1, 4]
+
+#------ Parameter list -------
+# data.parameters[class name] = [mean, min, max, 1-sigma, scale, role]
+# - if min max irrelevant, put to -1 or None (if you want a boundary of -1, use -1.0)
+# - if fixed, put 1-sigma to 0
+# - if scale irrelevant, put to 1, otherwise to the appropriate factor
+# - role is either 'cosmo', 'nuisance' or 'derived'
+
+# Cosmological parameters list
+data.parameters['omega_b']          = [2.235, 2.052, 2.42, 0, 0.01, 'cosmo']
+data.parameters['n_s']          = [0.965, 0.94, 0.99, 0, 1,   'cosmo']
+data.parameters['omega_cdm']    = [0.144, 0.05, 0.25, 0.003, 1, 'cosmo']
+data.parameters['h']            = [0.82, 0.5, 1.15, 0.03, 1, 'cosmo']
+data.parameters['ln10^{10}A_s'] = [3.07, 2., 4., 0.05, 1, 'cosmo']
+
+data.cosmo_arguments['N_ur'] = 2.0328
+data.cosmo_arguments['N_ncdm'] = 1
+data.cosmo_arguments['m_ncdm'] = 0.06
+
+# EFT nuisance parameters
+data.parameters['b1_1']  = [1.14, 0.1, 4, 0.2, 1,  'nuisance']
+data.parameters['b1_2']  = [1.26, 0.1, 4, 0.2, 1,  'nuisance']
+data.parameters['b1_3']  = [1.48, 0.1, 4, 0.2, 1,  'nuisance']
+data.parameters['b1_4']  = [1.36, 0.1, 4, 0.2, 1,  'nuisance']
+data.parameters['b1_5']  = [1.2, 0.1, 4, 0.2, 1,  'nuisance']
+
+data.parameters['c2_1']  = [0.37, -10., 10., 0.5, 1,  'nuisance']
+data.parameters['c2_2']  = [0.3, -10., 10., 0.5, 1,  'nuisance']
+data.parameters['c2_3']  = [0.44, -10., 10., 0.5, 1,  'nuisance']
+data.parameters['c2_4']  = [0.33, -10., 10., 0.5, 1,  'nuisance']
+data.parameters['c2_5']  = [0.33, -10., 10., 0.5, 1,  'nuisance']
+
+data.parameters['b1gs_1']  = [1.11, 0.1, 4, 0.2, 1,  'nuisance']
+data.parameters['b1gs_2']  = [1.2, 0.1, 4, 0.2, 1,  'nuisance']
+data.parameters['b1gs_3']  = [1.40, 0.1, 4, 0.2, 1,  'nuisance']
+data.parameters['b1gs_4']  = [1.27, 0.1, 4, 0.2, 1,  'nuisance']
+data.parameters['b1gs_5']  = [1.13, 0.1, 4, 0.2, 1,  'nuisance']
+
+data.parameters['c2gs_1']  = [0.27, -10., 10., 0.5, 1,  'nuisance']
+data.parameters['c2gs_2']  = [0.23, -10., 10., 0.5, 1,  'nuisance']
+data.parameters['c2gs_3']  = [0.44, -10., 10., 0.5, 1,  'nuisance']
+data.parameters['c2gs_4']  = [0.36, -10., 10., 0.5, 1,  'nuisance']
+data.parameters['c2gs_5']  = [0.32, -10., 10., 0.5, 1,  'nuisance']
+
+data.parameters['bmag_1']  = [1., -10, 10, 0.5, 1,  'nuisance']
+data.parameters['bmag_2']  = [1.22, -10, 10, 0.5, 1,  'nuisance']
+data.parameters['bmag_3']  = [2.1, -10, 10, 0.5, 1,  'nuisance']
+data.parameters['bmag_4']  = [1.8, -10, 10, 0.5, 1,  'nuisance']
+data.parameters['bmag_5']  = [-0.01, -10, 10, 0.5, 1,  'nuisance']
+
+data.parameters['dzs_1']  = [0., -10, 10, 0.1, 1,  'nuisance']
+data.parameters['dzs_2']  = [0., -10, 10, 0.1, 1,  'nuisance']
+data.parameters['dzs_3']  = [0., -10, 10, 0.1, 1,  'nuisance']
+data.parameters['dzs_4']  = [0., -10, 10, 0.1, 1,  'nuisance']
+
+data.parameters['dzl_1']  = [0., -10, 10, 0.1, 1,  'nuisance']
+data.parameters['dzl_2']  = [0., -10, 10, 0.1, 1,  'nuisance']
+data.parameters['dzl_3']  = [0., -10, 10, 0.1, 1,  'nuisance']
+data.parameters['dzl_4']  = [0., -10, 10, 0.1, 1,  'nuisance']
+data.parameters['dzl_5']  = [0., -10, 10, 0.1, 1,  'nuisance']
+
+data.parameters['szl_1']  = [1., 0, 10, 0.1, 1,  'nuisance']
+data.parameters['szl_2']  = [1.24, 0, 10, 0.1, 1,  'nuisance']
+data.parameters['szl_3']  = [0.93, 0, 10, 0.1, 1,  'nuisance']
+data.parameters['szl_4']  = [0.92, 0, 10, 0.1, 1,  'nuisance']
+data.parameters['szl_5']  = [1.08, 0, 10, 0.1, 1,  'nuisance']
+
+data.parameters['A']  = [0.1, -10, 10, 0.2, 1,  'nuisance']
+data.parameters['alpha']  = [-5., -10, 10, 0.2, 1,  'nuisance']
+
+data.parameters['m_1']  = [0, -4, 4, 0.01, 1,  'nuisance']
+data.parameters['m_2']  = [-0.02, -4, 4, 0.01, 1,  'nuisance']
+data.parameters['m_3']  = [-0.02, -4, 4, 0.01, 1,  'nuisance']
+data.parameters['m_4']  = [-0.04, -4, 4, 0.01, 1,  'nuisance']
+
+# Derived parameter list
+data.parameters['Omega_m']         = [0, None, None, 0,     1,   'derived']
+data.parameters['A_s']             = [0, None, None, 0,  1e-9,   'derived']
+data.parameters['sigma8']          = [0, None, None, 0,     1,   'derived']
+
+# Other cosmo parameters (fixed parameters, precision parameters, etc.)# 
+data.cosmo_arguments['output'] = 'mPk'
+
+#------ Mcmc parameters ----
+# Number of steps taken, by default (overwritten by the -N command)
+data.N = 10
+# Number of accepted steps before writing to file the chain. Larger means less
+# access to disc, but this is not so much time consuming.
+data.write_step = 10

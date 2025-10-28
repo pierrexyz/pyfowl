@@ -1,0 +1,10 @@
+eftdes.data_directory = data.path['data']
+
+### maglim_noz56
+eftdes.use_nuisance = ['b1_1', 'b1_2', 'b1_3', 'b1_4', 'b1_5', 'b1_6', 'c2_1', 'c2_2', 'c2_3', 'c2_4', 'c2_5', 'c2_6', 'b1gs_1', 'b1gs_2', 'b1gs_3', 'b1gs_4', 'b1gs_5', 'b1gs_6', 'c2gs_1', 'c2gs_2', 'c2gs_3', 'c2gs_4', 'c2gs_5', 'c2gs_6', 'bmag_1', 'bmag_2', 'bmag_3', 'bmag_4', 'bmag_5', 'bmag_6', 'dzs_1', 'dzs_2', 'dzs_3', 'dzs_4', 'dzl_1', 'dzl_2', 'dzl_3', 'dzl_4', 'dzl_5', 'dzl_6', 'szl_1', 'szl_2', 'szl_3', 'szl_4', 'szl_5', 'szl_6', 'A', 'alpha', 'm_1', 'm_2', 'm_3', 'm_4']
+eftdes.config_file = data.path['data'] + '/eftdes/config/maglim_noz56.yaml'
+
+### redmag
+# eftdes.data_directory = data.path['data']
+# eftdes.use_nuisance = ['b1_1', 'b1_2', 'b1_3', 'b1_4', 'b1_5', 'c2_1', 'c2_2', 'c2_3', 'c2_4', 'c2_5', 'b1gs_1', 'b1gs_2', 'b1gs_3', 'b1gs_4', 'b1gs_5', 'c2gs_1', 'c2gs_2', 'c2gs_3', 'c2gs_4', 'c2gs_5', 'bmag_1', 'bmag_2', 'bmag_3', 'bmag_4', 'bmag_5', 'dzs_1', 'dzs_2', 'dzs_3', 'dzs_4', 'dzl_1', 'dzl_2', 'dzl_3', 'dzl_4', 'dzl_5', 'szl_1', 'szl_2', 'szl_3', 'szl_4', 'szl_5', 'A', 'alpha', 'm_1', 'm_2', 'm_3', 'm_4']
+# eftdes.config_file = data.path['data'] + '/eftdes/config/redmag.yaml'
