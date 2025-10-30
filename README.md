@@ -7,7 +7,7 @@
 	- galaxy clustering
 - Dark Energy Survey Y3 3x2pt likelihood with EFT predictions
 
-[![](https://img.shields.io/badge/arXiv-2510.xxxxx%20-red.svg)](https://arxiv.org/abs/2510.xxxxx)
+[![](https://img.shields.io/badge/arXiv-2510.24878%20-red.svg)](https://arxiv.org/abs/2510.24878)
 [![](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/pierrexyz/pyfowl/blob/master/LICENSE)
 
 
@@ -37,11 +37,19 @@ To run with [MontePython 3](https://github.com/brinckmann/montepython_public), o
 * License: MIT
 
 When using PyFowl in a publication, please acknowledge the code by citing the following paper:  
-> G. D’Amico, A. Refregier, L. Senatore, and P. Zhang, "The cosmological analysis of DES 3$\times$2pt data from the Effective Field Theory of Large-Scale Structure", [2510.xxxxx](https://arxiv.org/abs/2510.xxxxx)
+> G. D’Amico, A. Refregier, L. Senatore, and P. Zhang, "The cosmological analysis of DES 3$\times$2pt data from the Effective Field Theory of Large-Scale Structure", [2510.24878](https://arxiv.org/abs/2510.24878)
 
 The BibTeX entry is:
 ```
-...
+@article{DAmico:2025zui,
+    author = "D'Amico, Guido and Refregier, Alexandre and Senatore, Leonardo and Zhang, Pierre",
+    title = "{The cosmological analysis of DES 3$\times$2pt data from the Effective Field Theory of Large-Scale Structure}",
+    eprint = "2510.24878",
+    archivePrefix = "arXiv",
+    primaryClass = "astro-ph.CO",
+    month = "10",
+    year = "2025"
+}
 ```
 
 When using the Dark Energy Survey Year 3 data products in a publication, please refer to [https://des.ncsa.illinois.edu/releases/y3a2](https://des.ncsa.illinois.edu/releases/y3a2) for acknowledgements. 
