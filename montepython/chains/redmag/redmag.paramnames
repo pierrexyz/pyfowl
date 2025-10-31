@@ -1,0 +1,47 @@
+omega_cdm 	 \omega_{cdm } 
+h 	 h 
+ln10^{10}A_s 	 ln10^{10}A_{s } 
+b1_1 	 b1_{1 } 
+b1_2 	 b1_{2 } 
+b1_3 	 b1_{3 } 
+b1_4 	 b1_{4 } 
+b1_5 	 b1_{5 } 
+c2_1 	 c2_{1 } 
+c2_2 	 c2_{2 } 
+c2_3 	 c2_{3 } 
+c2_4 	 c2_{4 } 
+c2_5 	 c2_{5 } 
+b1gs_1 	 b1gs_{1 } 
+b1gs_2 	 b1gs_{2 } 
+b1gs_3 	 b1gs_{3 } 
+b1gs_4 	 b1gs_{4 } 
+b1gs_5 	 b1gs_{5 } 
+c2gs_1 	 c2gs_{1 } 
+c2gs_2 	 c2gs_{2 } 
+c2gs_3 	 c2gs_{3 } 
+c2gs_4 	 c2gs_{4 } 
+c2gs_5 	 c2gs_{5 } 
+bmag_1 	 bmag_{1 } 
+bmag_2 	 bmag_{2 } 
+bmag_3 	 bmag_{3 } 
+bmag_4 	 bmag_{4 } 
+bmag_5 	 bmag_{5 } 
+dzs_1 	 dzs_{1 } 
+dzs_2 	 dzs_{2 } 
+dzs_3 	 dzs_{3 } 
+dzs_4 	 dzs_{4 } 
+dzl_1 	 dzl_{1 } 
+dzl_2 	 dzl_{2 } 
+dzl_3 	 dzl_{3 } 
+dzl_4 	 dzl_{4 } 
+dzl_5 	 dzl_{5 } 
+szl_5 	 szl_{5 } 
+A 	 A 
+alpha 	 \alpha 
+m_1 	 m_{1 } 
+m_2 	 m_{2 } 
+m_3 	 m_{3 } 
+m_4 	 m_{4 } 
+Omega_m 	 \Omega_{m } 
+sigma8 	 \sigma8 
+A_s 	 A_{s } 
